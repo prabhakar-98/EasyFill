@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Node / React
+node_modules/
+frontend/dist/
+frontend/build/
+.npm
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker
+data/
+docker/postgres/data/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Browser artifacts
+data/screenshots/
+data/browser/
+
+# SQLite (legacy, no longer used)
+*.db
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+
+
+.claude
+docs
+backend/logs
